@@ -8,15 +8,16 @@
 		<script type="text/javascript">
 			$(function(){
 				$('.zoom').showItCloser();
+				$('.zoom_sm').showItCloser({maxWidth:'200px'});
 			});
 		</script>
 	</head>
 	<body>
-		<table width="100%">
+		<table width="80%" style="margin:200px auto 0px auto;">
 			<tr>
 				<td style="text-align:left;"><a href="img1.jpg" class="zoom">IMG 1</a></td>
-				<td style="text-align:center;"><a href="img2.jpg" class="zoom">IMG 2</a></td>
-				<td style="text-align:right;"><a href="img3.jpg" class="zoom">IMG 3</a></td>
+				<td style="text-align:center;"><a href="img2.jpg" class="zoom_sm">IMAGE 2</a></td>
+				<td style="text-align:right;"><a href="img3.jpg" class="zoom_sm">IMG 3</a></td>
 			</tr>
 		</table>
 	</body>

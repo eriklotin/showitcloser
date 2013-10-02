@@ -11,6 +11,10 @@ Include showitcloser.js and initialize it:
 
 Add 'zoom' class to all links, that refer to the images
 
+# Options
+* maxWidth
+* maxHeight
+
 # Author
 
 Erik Lotin
